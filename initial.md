@@ -7,7 +7,7 @@ clone the script from [baikangwang/install-opencv-in-ubuntu.sh](https://gist.git
 * install-opencv-2.4.13-in-ubuntu.sh
 * install-opencv-3.2.0-in-ubuntu.sh
 
-Take version 2.4.13 for example 
+Take version 2.4.13 for example
 
 ```bash
 git clone https://gist.github.com/959f67d2eb50ff04edeec9bfe44dafc7.git
@@ -36,6 +36,17 @@ $ python
     ```bash
     sudo ln -s /dev/null /dev/raw1394
     ```
+
+## Clean up disk
+
+```bash
+# delete zip file
+# delete build(release) dir
+cd
+cd faceDetect_docs/opencv
+sudo rm opencv-3.2.0.zip
+sudo rm -r build
+```
 
 ## Clone source code
 
